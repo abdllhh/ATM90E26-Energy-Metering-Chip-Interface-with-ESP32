@@ -4,7 +4,7 @@
 #include <Arduino.h>
 #include <SPI.h>
 
-// --- Pin defaults (you can override in begin()) ---
+// --- Pin defaults (may change in begin() if diff pins) ---
 #define ATM_CS_DEFAULT   15
 #define ATM_MOSI_DEFAULT 12
 #define ATM_MISO_DEFAULT 13
@@ -36,3 +36,4 @@ private:
 };
 
 #endif
+
